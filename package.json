@@ -1,0 +1,28 @@
+{
+  "name": "api_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhechus/postgreSQL.git"
+  },
+  "author": "jhesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhechus/postgreSQL/issues"
+  },
+  "homepage": "https://github.com/jhechus/postgreSQL#readme",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "prisma": "^3.13.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.13.0"
+  }
+}
